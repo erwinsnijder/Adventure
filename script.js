@@ -24,8 +24,20 @@ else if(charchoice == "medium") {
 
    alert("this chair is just to big for you! the end.");
 }
-else {
-   alert("this chair is just right!");
+else {   alert("this chair is just right!");
+   
+var bedchoice = prompt(" in the next room you see three beds, a big one, a medium sized one and a small one, which do you choose?");
+   if (bedchoice== "big") {
+      alert("this bed is way to hard! the end");
+   }
+   else if(bedchoice== "medium"){
+
+      alert("this bed is way to soft! the end");
+   }
+   else { alert("this bed is just right, and you fall asleep");
+      alert("you wake up and see three bears looking at you!");
+      alert("you run out of the cabin to never return again.");}
+      
 }
 }
    }
