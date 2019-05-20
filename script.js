@@ -1,3 +1,4 @@
+// function playgame() {
 var entercabin = confirm("You come across a strange house in the woods,do you want to go inside?");
 
 if (entercabin == true) {
@@ -37,11 +38,19 @@ var bedchoice = prompt(" in the next room you see three beds, a big one, a mediu
    else { alert("this bed is just right, and you fall asleep");
       alert("you wake up and see three bears looking at you!");
       alert("you run out of the cabin to never return again.");}
-      
+
 }
 }
    }
 else {
    alert ("you don't go in the cabin so this adventure is over");
-   
+  
 }
+// var playagain = confirm("do you want to play again?");
+// if (playagain == true) { 
+//    playgame()
+// }
+
+// }
+
+// playGame();
